@@ -5,6 +5,8 @@
 3. Fíjate que cada <div></div> tiene asociado un [_data-color_](https://www.w3schools.com/tags/att_data-.asp) con el color CSS válido. 
 4. Para conseguir el color sangría vas a tener que modificar también el index.html
 
+[Demo](https://omiras.github.io/pikachu-color-event/)
+
 ## BONUS
 
 Consigue el color sangría sin modificar el HTML. [Ayuda](https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp)
