@@ -1,10 +1,10 @@
 // Pika-pika suerte!
 
-// NO MODIFICAR 
+// NO MODIFICAR (salvo para conseguir el color sangría)
 
-document.querySelector('#red').addEventListener('click', updateBgColor);
-document.querySelector('#blue').addEventListener('click', updateBgColor);
-document.querySelector('#green').addEventListener('click', updateBgColor);
+document.querySelector('#first').addEventListener('click', updateBgColor);
+document.querySelector('#second').addEventListener('click', updateBgColor);
+document.querySelector('#third').addEventListener('click', updateBgColor);
 
 // MODIFICAR A PARTIR DE AQUÍ 
 
