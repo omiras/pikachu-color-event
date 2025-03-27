@@ -1,10 +1,15 @@
 // Pika-pika suerte!
-//1. Asociamos el evento click a #colors. Mediante la propagación de eventos, podremos detectar cual han clicado
 
-let buttons = document.querySelector("#colors");
-buttons.addEventListener("click", function (event) {
-  console.log("el color pulsado es el color: " + event.target.id);
+// NO MODIFICAR (salvo para conseguir el color sangría)
 
-  // Debes asignar el color event.target.id como el color de fondo del pikachu
-  document.querySelector("img").style.backgroundColor = event.target.id;
-});
+document.querySelector('#first').addEventListener('click', updateBgColor);
+document.querySelector('#second').addEventListener('click', updateBgColor);
+document.querySelector('#third').addEventListener('click', updateBgColor);
+document.querySelector('#fourth').addEventListener('click', updateBgColor);
+
+
+// MODIFICAR A PARTIR DE AQUÍ 
+
+function updateBgColor(event) {
+    document.querySelector("#pikachu").style.backgroundColor = event.target.dataset.color;
+}
